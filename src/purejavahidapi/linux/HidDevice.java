@@ -94,8 +94,8 @@ public class HidDevice extends purejavahidapi.HidDevice {
 		// Determine if this device uses numbered reports. 
 		m_UsesNumberedReports = uses_numbered_reports(rpt_desc.value, rpt_desc.size);
 
-		m_InputReportBytes = new byte[4096 + 1];
-		m_OutputReportBytes = new byte[4096 + 1];
+		m_InputReportBytes = new byte[12288 + 1];
+		m_OutputReportBytes = new byte[12288 + 1];
 
 		m_SyncStart = new SyncPoint(2);
 		m_SyncShutdown = new SyncPoint(2);
