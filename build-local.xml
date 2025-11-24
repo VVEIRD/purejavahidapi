@@ -77,7 +77,7 @@
 		<antcall target="build" />
 	</target>
 	<target name="create_jar">
-		<delete dir="${dir.jarfile.latest}" />
+		<delete file="${dir.jarfile.latest}/purejavahid_VVEIRD.jar" />
 		<mkdir dir="${dir.jarfile.latest}" />
 		<jar destfile="${dir.jarfile}/purejavahid_VVEIRD.jar">
 			<fileset dir="${dir.buildfile}/target/classes" />
