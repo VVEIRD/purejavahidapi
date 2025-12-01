@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html","k":"18"},{"l":"purejavahidapi"},{"l":"purejavahidapi.hidparser"},{"l":"purejavahidapi.linux"},{"l":"purejavahidapi.macosx"},{"l":"purejavahidapi.shared"},{"l":"purejavahidapi.windows"}];updateSearchResults();
